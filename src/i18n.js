@@ -69,7 +69,7 @@ export default {
   + ' software, hardware, applications, games and any sorts of extension. Our goal is to'
   + ' encourage open-source technology expansion and provide hands-on learning experience'
   + ' for students to use APIs/SDKs.']
-  : '{T}{ }是由复旦大学和葡萄科技技术（深圳）有限公司组织筹办的{ }Hackathon。这场{ }Hackation{ }旨在鼓励学生{ }“学以致用”'
+  : '{T}{ }是由复旦大学和葡萄科技技术（深圳）有限公司组织筹办的{ }Hackathon。这场{ }Hackathon{ }旨在鼓励学生{ }“学以致用”'
   + '{ }和{ }“团队合作”，学习创造各类软硬件、应用、游戏、插件等等。我们将鼓励开源技术的使用和推广，'
   + '并手把手地教学生如何使用各家企业开源{ }API/SDKs。',
 
@@ -121,7 +121,7 @@ export default {
 
   'We are currently in progress working with sponsor companies. We will release their brands soon!':
   '我们在与各家赞助公司沟通合作，将会在赛前发布！',
-  'If your company would like to sponsor us, please email us at sponsor@hackx.org! We would love to have you here at {T}!': '如贵公司也有意向赞助本次活动？请邮件至{ }sponsor@hackx.org{ }我们期待您的参与！',
+  'If your company would like to sponsor us, please email us at sponsor@grapetech.org! We would love to have you here at {T}!': '如贵公司也有意向赞助本次活动？请邮件至{ }sponsor@grapetech.org{ }我们期待您的参与！',
 
   // Date
   'September 26{} (Monday)': '9{ }月{ }26{ }（周一）',
