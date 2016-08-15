@@ -8,10 +8,11 @@ export default {
   'Fudan University': ' ',
 
   // Nav
-  'Application Process': '活动申请',
-  'Hackathon Schedule': '活动日程',
+  'Application': '活动申请',
+  'Schedule': '活动日程',
   'FAQ': '常见问题',
   'About Us': '关于我们',
+  'Sponsor': '赞助商',
   '中文': 'EN',
 
   // About
@@ -108,7 +109,7 @@ export default {
   'Accepted students not only have chance to win some great prizes and technology gadgets, but also receive awards from sponsor companies or even internship/full-time job offers. Nothing is impossible here, come and join us!!!': '参加{ }{T}{ }的学生不但有机会获得大赛设置的精美奖项和高科技礼品，并有可能同时获得企业的青睐，得到企业特设的奖品，甚至获得实习、全职{ }offer。一切皆有可能，我们等你的参与哦！',
 
   'What if I have other questions?': '如果有什么其他问题，我该怎么办？',
-  'If you have any other questions, please email us at ask@hackx.org.': '请发送邮件至{ }ask@hackx.org。',
+  'If you have any other questions, please email us at ask@grapetech.org.': '请发送邮件至{ }ask@grapetech.org。',
 
   // Other
   'Hosts': '主办方',

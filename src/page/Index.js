@@ -69,6 +69,7 @@ export default class extends Component {
           <Signup ref='signup'/>
           <Timeline ref='timeline'/>
           <FAQ ref='faq'/>
+          <Other ref='other'/>
         </div>
       </DocumentTitle>
     )
