@@ -38,7 +38,7 @@ export default {
   'The APPLICATION will open on Saturday, September 2{}, 2016, we welcome you to apply!':
   '申请表将在{ }9{ }月{ }2{ }日周六正式发布，敬请期待。',
   
-  'We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected. ':
+  'We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected.':
   '我们将采用滚动式学生申请活动批准流程，建议各位参赛尽早申请，已获得参赛者资格。',
 
   // Timeline
