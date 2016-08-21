@@ -35,8 +35,11 @@ export default {
   'Please leave your contact info ({}), we will keep you updated for further progress.':
   '请将您的联系信息{ }{}，我们将及时通知您活动进展。',
 
-  'The APPLICATION will open on Saturday, August 20{}, 2016, we welcome you to apply!':
-  '申请表将在{ }8{ }月{ }20{ }日周六正式发布，敬请期待。',
+  'The APPLICATION will open on Saturday, September 2{}, 2016, we welcome you to apply!':
+  '申请表将在{ }9{ }月{ }2{ }日周六正式发布，敬请期待。',
+  
+  'We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected. ':
+  '我们将采用滚动式学生申请活动批准流程，建议各位参赛尽早申请，已获得参赛者资格。',
 
   // Timeline
   'Hackathon Schedule': '活动日程',
