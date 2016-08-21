@@ -37,7 +37,7 @@ export default class extends Component {
           <div className='content space-bottom-a-lot'>
             <div className='has-text-centered'>
               <img className='sponsor-logo' src={host}/>
-              <p>{__`葡萄科技技术（深圳）有限公司`}</p>
+              <p>{__`Grape Tech （Shenzhen）LLC`}</p>
             </div>
           </div>
           <h2 className='title'>{__`Sponsors`}</h2>

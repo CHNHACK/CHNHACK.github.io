@@ -121,6 +121,7 @@ export default {
   'The Committee of Youth League at Fudan University': '共青团复旦大学委员会',
   'The School of Computer Science at Fudan University': '复旦大学计算机科学技术学院',
   'Fudan University’s Student Union': '复旦大学学生会',
+  'Grape Tech （Shenzhen）LLC': '葡萄科技技术（深圳）有限公司',
 
   'We are currently in progress working with sponsor companies. We will release their brands soon!':
   '我们在与各家赞助公司沟通合作，将会在赛前发布！',
