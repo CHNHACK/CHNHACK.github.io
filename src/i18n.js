@@ -30,7 +30,7 @@ export default {
   'Student developers could also take this chance to connect with each sponsor’s developers and recruiters, in order to find their right fit for future career. {} will also invite top-notch venture capital investors to be part of the judging committee. Students could potentially benefit from those offerings by taking their projects to the next level. We hope, by the end of {}, students will not only receive many amazing prizes, but mostly importantly have fun, make great friends and turn the craziest idea into reality!': '学生也可借此机会对接企业开发人和招聘团队，为以后技术开发及落地或者就业寻找合适的机会。学生们也可连接受邀的创投公司，将开发的项目雏形通过登台公众演示以及赛后的技术完善来获得潜在的初创投资支持，以此来完成产品或服务的商业转化。最终，学生们不但通过此项比赛收获各类奖品，而更为重要的是，学生开发者们将能够更好地实现创新、创造，并在实践中找到自己心仪的合作伙伴。',
 
   // Signup
-  'APPLICATION PROCESS': '活动申请',
+  'Application Process': '活动申请',
   'here': '留给我们',
   'Please leave your contact info ({}), we will keep you updated for further progress.':
   '请将您的联系信息{ }{}，我们将及时通知您活动进展。',
@@ -39,7 +39,7 @@ export default {
   '申请表将在{ }8{ }月{ }20{ }日周六正式发布，敬请期待。',
 
   // Timeline
-  'HACKATHON SCHEDULE': '活动日程',
+  'Hackathon Schedule': '活动日程',
   'Various Company Presentations': '各式企业宣讲活动',
   'API/SDK Training Session': 'API/SDK{ }使用教程',
   'Hackathon is Ready!': '大赛筹备完成',
