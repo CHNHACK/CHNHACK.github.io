@@ -40,6 +40,10 @@ h2.title {
   font-weight: bolder;
 }
 
+.bg-canvas {
+
+}
+
 .content {
   text-align: justify;
   max-width: @s-content-max;
@@ -73,6 +77,10 @@ section.is-fullheight {
   // Fix height but allow overflow
   // In case total page height changed by locale
   // max-height: 100vh; // removed
+}
+
+.hero-body {
+  z-index: 1;
 }
 
 // Navbar
@@ -145,15 +153,16 @@ section.is-fullheight {
   transform: translateY(60px);
   transition: all .15s ease;
   z-index: 161;
+  background-color: transparent;
   &.fixed-top {
     transform: translateY(0);
-    &:hover > .nav-bg {
+    &> .nav-bg {
       background-color: @c-bg;
     }
   }
-  &.dark-bg > .nav-bg {
-    background-color: @c-bg;
-  }
+  // > .nav-bg {
+  //   background-color: @c-bg;
+  // }
 }
 .logo-nav:extend(.bg-center) {
   color: transparent;
@@ -546,6 +555,14 @@ body.montserrat {
 }
 body.abeezee {
   font-family: @f-main;
+}
+
+.bg-canvas {
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  opacity: 0.25;
 }
 
 @import 'responsive.less';
