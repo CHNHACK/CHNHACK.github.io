@@ -21,15 +21,15 @@ export default class extends Component {
             <div className='columns  has-text-centered'>
               <div className='column is-one-third'>
                 <img className='sponsor-logo' src={host1} style={{padding: 13}}/>
-                <p>{__`The Committee of Youth League at Fudan University`}</p>
+                <p className='sponsor-text'>{__`The Committee of Youth League at Fudan University`}</p>
               </div>
               <div className='column is-one-third'>
                 <img className='sponsor-logo' src={host2}/>
-                <p>{__`The School of Computer Science at Fudan University`}</p>
+                <p className='sponsor-text'>{__`The School of Computer Science at Fudan University`}</p>
               </div>
               <div className='column is-one-third'>
                 <img className='sponsor-logo' src={host3}/>
-                <p>{__`Fudan University’s Student Union`}</p>
+                <p className='sponsor-text'>{__`Fudan University’s Student Union`}</p>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default class extends Component {
           <div className='content space-bottom-a-lot'>
             <div className='has-text-centered'>
               <img className='sponsor-logo' src={host}/>
-              <p>{__`Grape Tech （Shenzhen）LLC`}</p>
+              <p className='sponsor-text'>{__`Grape Tech （Shenzhen）LLC`}</p>
             </div>
           </div>
           <h2 className='title'>{__`Sponsors`}</h2>
