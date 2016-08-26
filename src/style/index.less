@@ -8,6 +8,7 @@
 //@import 'https://fonts.googleapis.com/css?family=Prompt';
 //@import 'https://fonts.googleapis.com/css?family=ABeeZee'; fk xxx
 //@import 'http://fonts.useso.com/css?family=ABeeZee'; fk !https
+@import 'https://fonts.googleapis.com/css?family=Montserrat:700';
 
 /* latin */
 @font-face {
@@ -19,7 +20,7 @@
 }
 
 body {
-  font-family: @f-main;
+  font-family: @f-fallback;
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -36,7 +37,9 @@ h2.title {
   color: @c-white;
   text-transform: uppercase;
   letter-spacing: .1em;
+  font-weight: bolder;
 }
+
 .content {
   text-align: justify;
   max-width: @s-content-max;
@@ -80,10 +83,12 @@ section.is-fullheight {
   z-index: 1;
   will-change: transform;
   transition: all .5s @e-layer;
+  pointer-events: none;
   ~ .nav .nav-item {
     filter: none;
   }
   &.expand {
+    pointer-events: inherit;
     &> div > a {
       opacity: 1;
 
@@ -137,7 +142,6 @@ section.is-fullheight {
   max-width: calc(@s-container-max + 14px);
   min-height: 64px;
   will-change: transform;
-  background-color: #211f21;
   transform: translateY(60px);
   transition: all .15s ease;
   z-index: 161;
@@ -187,9 +191,6 @@ section.is-fullheight {
 }
 
 // Main title
-.main-title {
-  font-family: @f-brand;
-}
 .logo-title:extend(.bg-center) {
   // Using h1 for SEO reason
   margin: auto;
@@ -207,6 +208,7 @@ section.is-fullheight {
   font-size: @fs-main-subtitle;
   line-height: 1.5em;
   color: @c-white;
+  font-weight: 500;
 }
 
 // FAQ
@@ -296,6 +298,10 @@ section.is-fullheight {
       background-color: @c-red;
       width: 10px;
       height: 10px;
+    }
+    text-shadow: 3px 3px #444;
+    .tl-2:before {
+      box-shadow: 3px 3px #444;
     }
   }
 }
@@ -403,7 +409,7 @@ section.is-fullheight {
     &:hover {
       border: 2px double currentColor;
       border-style: double;
-      border-image: linear-gradient(135deg, currentColor 0%, @c-white 100%) 2 stretch;
+      border-image: linear-gradient(135deg, currentColor 0%, @c-sky 100%) 2 stretch;
     }
   }
 }
@@ -426,6 +432,17 @@ section.is-fullheight {
       border: 2px double currentColor;
       border-style: double;
       border-image: linear-gradient(135deg, currentColor 0%, @c-blue 100%) 2 stretch;
+    }
+  }
+}
+.c-sky {
+  color: @c-sky;
+  &.border {
+    border: 2px solid transparent;
+    &:hover {
+      border: 2px double currentColor;
+      border-style: double;
+      border-image: linear-gradient(135deg, currentColor 0%, @c-white 100%) 2 stretch;
     }
   }
 }
@@ -452,6 +469,10 @@ a {
   border-color: @c-sky;
   &:hover {
     border-color: @c-sky;
+  }
+  &.link-invert {
+    color: @c-white;
+    border-color: @c-white;
   }
 }
 .space {
@@ -491,9 +512,6 @@ a {
   background-size: auto 50%;
   animation: jump 1s infinite alternate;
   transition: all .3s ease;
-  &:hover {
-    animation: none;
-  }
 }
 @keyframes jump {
   from { transform: translateY(0); }
@@ -518,6 +536,16 @@ a {
   .logo-nav:extend(.bg-center) {
     background-image: url(@i-logo-nav-2x);
   }
+}
+
+// web fonts
+body.montserrat {
+  h2.title {
+    font-family: 'Montserrat', 'Raleway', 'Arial', sans-serif;
+  }
+}
+body.abeezee {
+  font-family: @f-main;
 }
 
 @import 'responsive.less';

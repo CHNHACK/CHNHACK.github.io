@@ -41,13 +41,19 @@ html {
     box-shadow: none;
     color: @c-red;
     &:hover {
-      color: @c-white;
+      background: none;
     }
+
     h4 {
       color: inherit;
     }
-    &.expand > div {
+
+    &.expand {
       color: @c-white;
+      background: linear-gradient(135deg, @c-red 60%, @c-yellow 100%);
+      &> div {
+        color: @c-white;
+      }
     }
   }
   .tl-box {

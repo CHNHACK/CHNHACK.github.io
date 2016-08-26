@@ -37,13 +37,13 @@ export default class extends Component {
           <div className='content space-bottom-a-lot'>
             <div className='has-text-centered'>
               <img className='sponsor-logo' src={host}/>
-              <p className='sponsor-text'>{__`Grape Tech （Shenzhen）LLC`}</p>
+              <p className='sponsor-text'>{__`Grape Tech (Shenzhen) LLC`}</p>
             </div>
           </div>
           <h2 className='title'>{__`Sponsors`}</h2>
           <div className='content space-bottom-a-lot'>
             <p>{__`We are currently in progress working with sponsor companies. We will release their brands soon!`}</p>
-            <p>{__`If your company would like to sponsor us, please email us at sponsor@grapetech.org! We would love to have you here at {T}!`}</p>
+            <p>{__`If your company would like to sponsor us, please email us at ${<a href='mailto:sponsor@grapetech.org'>sponsor@grapetech.org</a>}! We would love to have you here at {T}!`}</p>
           </div>
         </div>
       </section>

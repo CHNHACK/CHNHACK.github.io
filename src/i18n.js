@@ -37,7 +37,7 @@ export default {
 
   'The APPLICATION will open on Saturday, September 2{}, 2016, we welcome you to apply!':
   '申请表将在{ }9{ }月{ }2{ }日周六正式发布，敬请期待。',
-  
+
   'We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected.':
   '我们将采用滚动式学生申请活动批准流程，建议各位参赛尽早申请，已获得参赛者资格。',
 
@@ -114,7 +114,7 @@ export default {
   'Accepted students not only have chance to win some great prizes and technology gadgets, but also receive awards from sponsor companies or even internship/full-time job offers. Nothing is impossible here, come and join us!!!': '参加{ }{T}{ }的学生不但有机会获得大赛设置的精美奖项和高科技礼品，并有可能同时获得企业的青睐，得到企业特设的奖品，甚至获得实习、全职{ }offer。一切皆有可能，我们等你的参与哦！',
 
   'What if I have other questions?': '如果有什么其他问题，我该怎么办？',
-  'If you have any other questions, please email us at ask@grapetech.org.': '请发送邮件至{ }ask@grapetech.org。',
+  'If you have any other questions, please email us at {}.': '请发送邮件至{ }{}。',
 
   // Other
   'Hosts': '主办方',
@@ -124,11 +124,11 @@ export default {
   'The Committee of Youth League at Fudan University': '共青团复旦大学委员会',
   'The School of Computer Science at Fudan University': '复旦大学计算机科学技术学院',
   'Fudan University’s Student Union': '复旦大学学生会',
-  'Grape Tech （Shenzhen）LLC': '葡萄科技技术（深圳）有限公司',
+  'Grape Tech (Shenzhen) LLC': '葡萄科技技术（深圳）有限公司',
 
   'We are currently in progress working with sponsor companies. We will release their brands soon!':
   '我们在与各家赞助公司沟通合作，将会在赛前发布！',
-  'If your company would like to sponsor us, please email us at sponsor@grapetech.org! We would love to have you here at {T}!': '如贵公司也有意向赞助本次活动？请邮件至{ }sponsor@grapetech.org{ }我们期待您的参与！',
+  'If your company would like to sponsor us, please email us at {}! We would love to have you here at {T}!': '如贵公司也有意向赞助本次活动？请邮件至{ }{}{ }我们期待您的参与！',
 
   // Date
   'September 26{} (Monday)': '9{ }月{ }26{ }（周一）',

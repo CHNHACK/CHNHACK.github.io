@@ -11,6 +11,8 @@ import { locale } from './const'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
+import wechatLogo from '../style/image/logo-wechat.jpg'
+
 let footerTop = 0
 
 export default class extends Component {
@@ -52,6 +54,11 @@ export default class extends Component {
   render() {
     return (
       <div className={`locale-${locale()}`}>
+        <img src={wechatLogo} style={{
+          position: 'fixed',
+          pointerEvents: 'none',
+          visibility: 'hidden'
+        }} />
         <Navbar fixedTop={this.state.fixedTop} darkBg={this.state.darkBg}/>
         {this.props.children}
         <section className='hero'>
