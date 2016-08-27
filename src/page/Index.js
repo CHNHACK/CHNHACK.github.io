@@ -54,7 +54,7 @@ export default class extends Component {
         <div>
           <section className='hero is-fullheight main-title'>
             <div className='hero-body flex-vertical'>
-              <h1 className='logo-title title'>{TITLE}</h1>
+              <h1 className='logo-title title'>HACK<br/>×<br/>FDU</h1>
               <div className='has-text-centered'>
                 <h2 className='logo-subtitle subtitle'>{__`Fudan University’s Hackathon 2016`}</h2><br/>
                 <h2 className='logo-subtitle subtitle'>{__`October 14${<sup>th</sup>} – 16${<sup>th</sup>} (Friday – Sunday)`}</h2><br/>
