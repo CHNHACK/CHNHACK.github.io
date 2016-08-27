@@ -10,6 +10,7 @@ import host from '../style/image/host.png'
 import host1 from '../style/image/host-1.png'
 import host2 from '../style/image/host-2.png'
 import host3 from '../style/image/host-3.png'
+import fddn from '../style/image/fddn.png'
 
 export default class extends Component {
   render() {
@@ -19,17 +20,21 @@ export default class extends Component {
           <h2 className='title'>{__`Hosts`}</h2>
           <div className='content space-bottom-a-lot'>
             <div className='columns  has-text-centered'>
-              <div className='column is-one-third'>
+              <div className='column flex-1'>
                 <img className='sponsor-logo' src={host1} style={{padding: 13}}/>
                 <p className='sponsor-text'>{__`The Committee of Youth League at Fudan University`}</p>
               </div>
-              <div className='column is-one-third'>
+              <div className='column flex-1'>
                 <img className='sponsor-logo' src={host2}/>
                 <p className='sponsor-text'>{__`The School of Computer Science at Fudan University`}</p>
               </div>
-              <div className='column is-one-third'>
+              <div className='column flex-1'>
                 <img className='sponsor-logo' src={host3}/>
                 <p className='sponsor-text'>{__`Fudan University’s Student Union`}</p>
+              </div>
+              <div className='column flex-1'>
+                <img className='sponsor-logo' src={fddn}/>
+                <p className='sponsor-text'>{__`Fudan University Developer’s Network`}</p>
               </div>
             </div>
           </div>

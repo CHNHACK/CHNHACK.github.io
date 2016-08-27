@@ -35,8 +35,8 @@ export default {
   'Please leave your contact info ({}), we will keep you updated for further progress.':
   '请将您的联系信息{ }{}，我们将及时通知您活动进展。',
 
-  'The APPLICATION will open on Saturday, September 2{}, 2016, we welcome you to apply!':
-  '申请表将在{ }9{ }月{ }2{ }日周六正式发布，敬请期待。',
+  'The APPLICATION will open on early September, 2016, we welcome you to apply!':
+  '申请表将在{ }9{ }月初正式发布，敬请期待。',
 
   'We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected.':
   '我们将采用滚动式学生申请活动批准流程，建议各位参赛尽早申请，已获得参赛者资格。',
@@ -125,6 +125,7 @@ export default {
   'The School of Computer Science at Fudan University': '复旦大学计算机科学技术学院',
   'Fudan University’s Student Union': '复旦大学学生会',
   'Grape Tech (Shenzhen) LLC': '葡萄科技技术（深圳）有限公司',
+  'Fudan University Developer’s Network': '复旦开发者网络',
 
   'We are currently in progress working with sponsor companies. We will release their brands soon!':
   '我们在与各家赞助公司沟通合作，将会在赛前发布！',
