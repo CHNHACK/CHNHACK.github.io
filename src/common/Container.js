@@ -41,9 +41,9 @@ function setAnimation(canvas, ctx) {
     function tick() {
       for (let i = 0, _i = 0; i < animationHeight; i += animationSize, _i++) {
         for (let j = 0, _j = 0; j < animationWidth; j += animationSize, _j++) {
-          // if (Math.random() < 0.01) {
-          //   animationStatus[_i][_j] *= -1
-          // }
+          if (Math.random() < 0.01) {
+            animationStatus[_i][_j] *= -1
+          }
           if (_i) {
             animationStatus[_i][_j] *= animationStatus[_i - 1][_j]
             animationStatus[_i - 1][_j] *= -1
@@ -101,7 +101,7 @@ export default class extends Component {
   }
 
   render() {
-    /* <canvas className='bg-canvas' ref='canvas'></canvas> */
+    // <canvas className='bg-canvas' ref='canvas'/>
     return (
       <div className={`locale-${locale()}`}>
         <img src={wechatLogo} style={{
