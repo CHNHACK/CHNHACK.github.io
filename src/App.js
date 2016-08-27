@@ -40,6 +40,8 @@ export default class extends Component {
       document.body.className += ' logo2-loaded'
     }
     logoObserver2.src = logoSrc2
+
+    console.log(`https://github.com/hackfdu/website`)
   }
 
   render() {

@@ -34,7 +34,7 @@ export default class extends Component {
               </div>
               <div className='column flex-1'>
                 <img className='sponsor-logo' src={fddn}/>
-                <p className='sponsor-text'>{__`Fudan University Developer’s Network`}</p>
+                <p className='sponsor-text'>{__`Fudan Developer Network`}</p>
               </div>
             </div>
           </div>
