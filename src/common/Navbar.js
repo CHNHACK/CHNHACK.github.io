@@ -53,7 +53,7 @@ export default class extends Component {
           <span className='nav-toggle' onClick={this.toggleMenu}>
             <a className='nav-item' href='javascript: ;'>
               <span className='icon'>
-                <i className='fa fa-bars'></i>
+                <i className={`fa fa-${expand ? 'close' : 'bars'}`}></i>
               </span>
             </a>
           </span>
@@ -65,7 +65,7 @@ export default class extends Component {
             <Link tabIndex='6' className='nav-item border c-sky' to='/other'>{__`Sponsor`}</Link>
           </div>
           <div className='nav-right'>
-            <a className='nav-item' href='javascript: ;' onClick={this.toggleLocale}>{__`中文`}</a>
+            <a className='nav-item' href='javascript: ;' onClick={this.toggleLocale}>{__`中`}</a>
           </div>
         </header>
       </div>

@@ -13,7 +13,7 @@ export default {
   'FAQ': '常见问题',
   'About Us': '关于我们',
   'Sponsor': '赞助商',
-  '中文': 'EN',
+  '中': 'EN',
 
   // About
   'Hackathons have grown to become a global student movement. Now Fudan University will also join this movement by creating {} this Fall semester. {} will select 300 best student developers '
@@ -32,7 +32,7 @@ export default {
   // Signup
   'Application Process': '活动申请',
   'here': '留给我们',
-  'Please leave your contact info ({}), we will keep you updated for further progress.':
+  'Please leave your contact info {}, we will keep you updated for further progress.':
   '请将您的联系信息{ }{}，我们将及时通知您活动进展。',
 
   'The APPLICATION will open on early September, 2016, we welcome you to apply!':

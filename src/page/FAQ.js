@@ -99,7 +99,7 @@ export default class extends Component {
               </Box>
             </div>
           </div>
-          <div id='map' style={{height: 400, width: '100%', margin: '100px auto 0'}}/>
+          <div id='map' style={{height: 400, width: '100%', margin: '100px auto 0'}} className='space-bottom-a-lot' />
         </div>
       </section>
     )

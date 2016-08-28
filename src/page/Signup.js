@@ -13,9 +13,9 @@ export default class extends Component {
         <div className='container'>
           <h2 className='title'>{__`Application Process`}</h2>
           <div className='content signup-box'>
-            <p>{__`Please leave your contact info (${
+            <p>{__`Please leave your contact info ${
               <a href='javascript: ;'>{__`here`}</a>
-            }), we will keep you updated for further progress.`}</p>
+            }, we will keep you updated for further progress.`}</p>
             <p>{__`The APPLICATION will open on early September, 2016, we welcome you to apply!`}</p>
             <p>{__`We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected.`}</p>
           </div>

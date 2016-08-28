@@ -41,6 +41,7 @@ export default class extends Component {
     }
     logoObserver2.src = logoSrc2
 
+    console.error = () => {}
     console.log(`https://github.com/hackfdu/website`)
   }
 

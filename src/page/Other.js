@@ -15,7 +15,7 @@ import fddn from '../style/image/fddn.png'
 export default class extends Component {
   render() {
     return (
-      <section className='section hero is-fullheight'>
+      <section className='section hero is-fullheight bright'>
         <div className='container'>
           <h2 className='title'>{__`Hosts`}</h2>
           <div className='content space-bottom-a-lot'>

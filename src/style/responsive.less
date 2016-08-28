@@ -81,6 +81,13 @@ html {
 
   .nav {
     transform: translateY(0);
+    .nav-item {
+      filter: drop-shadow(1px 1px @c-bg) !important;
+    }
+  }
+
+  .nav-bg {
+    display: none;
   }
 
   .logo-title {
@@ -94,5 +101,10 @@ html {
     br {
       display: inherit;
     }
+  }
+
+  .underline, u, .content a:not(.button) {
+    text-decoration: underline;
+    border-bottom: none;
   }
 }

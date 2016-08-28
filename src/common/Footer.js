@@ -10,7 +10,7 @@ import { TITLE } from './const'
 export default class extends Component {
   render() {
     return (
-      <footer className='footer'>
+      <footer className='footer bright'>
         <div className='container'>
           <div className='content'>
             <p className='has-text-centered'>{TITLE} All rights reserved</p>

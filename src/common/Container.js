@@ -14,6 +14,9 @@ import Footer from './Footer'
 import wechatLogo from '../style/image/logo-wechat.jpg'
 
 let footerTop = 0
+let sectionTop = []
+let navItems = []
+let navSelected = null
 
 const animationSize = 40
 let animationStarted = false
@@ -72,20 +75,22 @@ export default class extends Component {
 
   componentDidMount() {
     // let canvas = ReactDOM.findDOMNode(this.refs.canvas)
-    // setAnimation(canvas, canvas.getContext('2d'))
 
     window.addEventListener('scroll', this.scroll)
     window.addEventListener('touchmove', this.scroll)
     window.updateLocaleContainer = () => {
       this.forceUpdate()
     }
-    window.addEventListener('resize', () => {
+    let resizeFn = () => {
       let footer = ReactDOM.findDOMNode(this.refs.footer)
       footerTop = footer.offsetTop - 100
-      // setAnimation(canvas)
-    })
-    let footer = ReactDOM.findDOMNode(this.refs.footer)
-    footerTop = footer.offsetTop - 100
+      sectionTop = [].map.call(document.getElementsByClassName('section'), section =>
+        section.offsetTop - window.innerHeight / 3)
+      // setAnimation(canvas, canvas.getContext('2d'))
+    }
+    window.addEventListener('resize', resizeFn)
+    resizeFn()
+    navItems = document.querySelectorAll('.nav-menu .nav-item.border')
   }
 
   scroll(event) {
@@ -97,6 +102,26 @@ export default class extends Component {
     let darkBg = scrollTop >= footerTop
     if (darkBg !== this.state.darkBg) {
       this.setState({ darkBg })
+    }
+    let i = sectionTop.length - 1
+    for (; i >= 0; i--) {
+      if (scrollTop > sectionTop[i]) {
+        if (navSelected === navItems[i]) {
+          break
+        }
+        if (navSelected) {
+          navSelected.classList.remove('selected')
+        }
+        navItems[i].classList.add('selected')
+        navSelected = navItems[i]
+        break
+      }
+    }
+    if (i < 0) {
+      if (navSelected) {
+        navSelected.classList.remove('selected')
+        navSelected = null
+      }
     }
   }
 
@@ -112,7 +137,7 @@ export default class extends Component {
         }} />
         <Navbar fixedTop={this.state.fixedTop} darkBg={this.state.darkBg}/>
         {this.props.children}
-        <section className='hero'>
+        <section className='hero bright'>
           <div className='hero-body'>
             <div className='container'>
               <nav className="level is-mobile">
