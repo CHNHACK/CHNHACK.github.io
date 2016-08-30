@@ -21,11 +21,15 @@ export default class extends Component {
       weight: 700
     })
 
-    ABeeZee.load().then(function () {
+    ABeeZee.load().then(() => {
+      document.body.className += ' abeezee'
+    }).catch(() => {
       document.body.className += ' abeezee'
     })
 
-    Montserrat.load().then(function () {
+    Montserrat.load().then(() => {
+      document.body.className += ' montserrat'
+    }).catch(() => {
       document.body.className += ' montserrat'
     })
 
