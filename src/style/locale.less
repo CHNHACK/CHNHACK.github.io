@@ -12,7 +12,29 @@
     letter-spacing: .05em;
   }
   .tl {
-    //font-size: 90%; todo
+    .tl-1, .tl-2, .tl-3 {
+      // vertical-align: top;
+    }
+    .tl-2.tl-line {
+      height: 3em;
+      &.tl-long {
+        height: 4.5em;
+      }
+    }
+    .tl-3 {
+      height: 1em;
+      //line-height: 1em;
+      // height: 1em;
+      //margin-top: -1em;
+      // transform: translateY(calc(-50% + .5em));
+      // 1 -> 0
+      // 2 -> -1
+      span {
+        display: inline-block;
+        margin-top: 0.5em;
+        transform: translateY(-50%);
+      }
+    }
   }
   .content {
     text-align: inherit;

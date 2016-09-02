@@ -40,6 +40,11 @@ body {
   background: @c-bg;
   background-image: url(@i-bg);
   background-attachment: fixed;
+
+  word-wrap: break-word;
+  word-break: break-word;
+
+  font-feature-settings: "liga", "dlig", "lnum";
 }
 
 h2.title {
@@ -70,6 +75,12 @@ h2.title {
   h2.title {
     font-weight: 600;
   }
+}
+
+p {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a:focus {
@@ -206,7 +217,7 @@ section.is-fullheight {
     will-change: border;
     transition: all .15s ease;
 
-    &:hover, &.selected {
+    &:hover, &:active, &.selected {
       border: 2px solid currentColor;
       &.c-white {
         border-image: linear-gradient(135deg, currentColor 0%, @c-red 100%) 2 stretch;
@@ -342,8 +353,25 @@ section.is-fullheight {
 }
 
 // Map
-#map {
-  box-shadow: .4em .4em @c-red;
+#map:extend(.bg-center) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px 0 -40px 50% !important;
+  height: 500px;
+  width: 100vw;
+  max-height: 80vh;
+  font-size: 1.1em;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  transform: translateX(-50%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(@i-map);
+  background-size: cover;
+
+  h4:first-of-type {
+    margin-top: 220px;
+    margin-bottom: 10px;
+  }
 }
 
 // Timeline
@@ -369,7 +397,7 @@ section.is-fullheight {
   vertical-align: middle;
 }
 .tl-1 {
-  width: 4em;
+  width: 3.5em;
   text-align: right;
 }
 .tl-2 {
@@ -426,8 +454,8 @@ section.is-fullheight {
   }
 }
 .tl-3 {
-  width: 13em;
-  max-width: 13em;
+  width: 14em;
+  max-width: 14em;
   white-space: pre-wrap;
   word-break: break-word;
   text-align: left;
@@ -484,7 +512,7 @@ b {
 a {
   color: @c-sky;
 }
-.content a:not(.button) {
+.content a:not(.button), .content a:not(.button):visited {
   color: @c-sky;
   border-bottom: none;
   will-change: background-color;
@@ -552,7 +580,7 @@ a {
 
 .sponsor-logo {
   height: 150px;
-  margin: -10px 40px 0;
+  margin: -10px auto 0 auto;
 }
 
 // High res screens
@@ -597,17 +625,46 @@ body.logo1-loaded.logo2-loaded {
   width: 100%;
   height: 100%;
   opacity: 0.5;
+  pointer-events: none;
 }
 
 .bright {
+  position: relative;
   background-color: @c-light-grey;
   h2 {
     color: @c-black;
     filter: none;
-    text-shadow: none;
+    text-shadow: 2px 2px #fff;
   }
   p {
     color: @c-black;
+  }
+}
+
+.bright, .signup-box, .about-box {
+  .underline, u, a:not(.button) {
+    display: inline-block;
+    height: 1.25em;
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+}
+
+.bright {
+  .underline, u, .content a:not(.button) {
+    text-shadow: 1px 0 @c-light-grey, 2px 0 @c-light-grey, -1px 0 @c-light-grey, -2px 0 @c-light-grey;
+  }
+}
+
+.signup-box {
+  .underline, u, .content a:not(.button) {
+    text-shadow: 1px 0 @c-bg, 2px 0 @c-bg, -1px 0 @c-bg, -2px 0 @c-bg;
+  }
+}
+
+.about-box {
+  .underline, u, .content a:not(.button) {
+    text-shadow: 1px 0 @c-white, 2px 0 @c-white, -1px 0 @c-white, -2px 0 @c-white;
   }
 }
 

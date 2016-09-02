@@ -17,7 +17,7 @@ const TNote = props => {
   }
   return <div className='tl-2'/>
 }
-const THead = props => <div className='tl-3'>{props.children}</div>
+const THead = props => <div className='tl-3'><span>{props.children}</span></div>
 
 class Title extends Component {
   render() {
@@ -89,7 +89,7 @@ export default class extends Component {
               <Dot time='21:00'>{__`Sponsor Company’s Tech Q&A Session`}</Dot>
               <Line/>
               <Dot time='23:00'>{__`Student Hacking in Progress and Gaming Time`}</Dot>
-              <Line>{__`(Past Night Hacking Time)${<Compress/>}`}</Line>
+              <Line long={true}>{__`(Past Night Hacking Time)${<Compress/>}`}</Line>
             </div>
             <div className='column is-one-third'>
               <Title>{__`October 15${<sup>th</sup>} (Saturday)`}</Title>
@@ -108,7 +108,7 @@ export default class extends Component {
               <Dot time='21:00'>{__`Student Hacking in Progress and Gaming Time`}</Dot>
               <Line/>
               <Dot time='23:30'>{__`Student Hacking in Progress and Gaming Time`}</Dot>
-              <Line>{__`(Past Night Hacking Time)${<Compress/>}`}</Line>
+              <Line long={true}>{__`(Past Night Hacking Time)${<Compress/>}`}</Line>
             </div>
             <div className='column is-one-third'>
               <Title>{__`October 16${<sup>th</sup>} (Sunday)`}</Title>

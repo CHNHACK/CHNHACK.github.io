@@ -38,14 +38,14 @@ export default class extends Component {
     //let map = new BMap.Map('map')
     //map.centerAndZoom('复旦大学光华楼', 15)
     // fk.....
-    (new AMap.Marker({
-      position: [121.505257, 31.3001]
-    })).setMap(new AMap.Map('map',{
-      resizeEnable: true,
-      zoomEnable: false,
-      zoom: 15,
-      center: [121.503584, 31.296426]
-    }))
+    // (new AMap.Marker({
+    //   position: [121.505257, 31.3001]
+    // })).setMap(new AMap.Map('map',{
+    //   resizeEnable: true,
+    //   zoomEnable: false,
+    //   zoom: 15,
+    //   center: [121.503584, 31.296426]
+    // }))
   }
 
   render() {
@@ -99,7 +99,10 @@ export default class extends Component {
               </Box>
             </div>
           </div>
-          <div id='map' style={{height: 400, width: '100%', margin: '100px auto 0'}} className='space-bottom-a-lot' />
+          <div id='map' className='space-bottom-a-lot'>
+            <h4>{__`No. 220 Handan Road, Yangpu District, Shanghai`}</h4>
+            <h4>{__`Fudan University Guanghua Building 2${<sup>nd</sup>} Floor`}</h4>
+          </div>
         </div>
       </section>
     )

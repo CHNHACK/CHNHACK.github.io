@@ -5,6 +5,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import { Icon } from 'react-fa'
+import FastClick from 'fastclick'
 
 import { locale } from './const'
 
@@ -18,21 +19,23 @@ let sectionTop = []
 let navItems = []
 let navSelected = null
 
-const animationSize = 40
+const animationSize = 10
 let animationStarted = false
 let animationWidth, animationHeight
 let animationStatus = []
 
-function setAnimation(canvas, ctx) {
-  animationWidth = canvas.width = window.innerWidth * 2
-  animationHeight = canvas.height = window.innerHeight * 2
+function drawBg(canvas) {
+  let ctx = canvas.getContext('2d')
+
+  animationWidth = canvas.width = window.innerWidth / 2
+  animationHeight = canvas.height = window.innerHeight / 2
 
   for (let i = 0, _i = 0; i < animationHeight; i += animationSize, _i++) {
     animationStatus[_i] = []
     for (let j = 0, _j = 0; j < animationWidth; j += animationSize, _j++) {
       animationStatus[_i][_j] = 1
-      if (Math.random() < 0.02) {
-        animationStatus[_i][_j] *= -1
+      if (Math.random() < 0.01) {
+        animationStatus[_i][_j] = -1
       }
     }
   }
@@ -44,12 +47,12 @@ function setAnimation(canvas, ctx) {
     function tick() {
       for (let i = 0, _i = 0; i < animationHeight; i += animationSize, _i++) {
         for (let j = 0, _j = 0; j < animationWidth; j += animationSize, _j++) {
-          if (Math.random() < 0.01) {
-            animationStatus[_i][_j] *= -1
-          }
+          // if (Math.random() < 0.01) {
+          //   animationStatus[_i][_j] *= -1
+          // }
           if (_i) {
             animationStatus[_i][_j] *= animationStatus[_i - 1][_j]
-            animationStatus[_i - 1][_j] *= -1
+            // animationStatus[_i - 1][_j] *= -1
           }
           if (_j) {
             animationStatus[_i][_j] *= animationStatus[_i][_j - 1]
@@ -59,7 +62,8 @@ function setAnimation(canvas, ctx) {
         }
       }
     }
-    setInterval(tick, 150)
+    //tick()
+    setInterval(tick, 300)
   }
 }
 
@@ -74,7 +78,7 @@ export default class extends Component {
   }
 
   componentDidMount() {
-    // let canvas = ReactDOM.findDOMNode(this.refs.canvas)
+    let canvas = ReactDOM.findDOMNode(this.refs.canvas)
 
     window.addEventListener('scroll', this.scroll)
     window.addEventListener('touchmove', this.scroll)
@@ -86,11 +90,13 @@ export default class extends Component {
       footerTop = footer.offsetTop - 100
       sectionTop = [].map.call(document.getElementsByClassName('section'), section =>
         section.offsetTop - window.innerHeight / 3)
-      // setAnimation(canvas, canvas.getContext('2d'))
+        // drawBg(canvas)
     }
     window.addEventListener('resize', resizeFn)
     resizeFn()
     navItems = document.querySelectorAll('.nav-menu .nav-item.border')
+
+    FastClick.attach(document.body)
   }
 
   scroll(event) {
@@ -126,9 +132,9 @@ export default class extends Component {
   }
 
   render() {
-    // <canvas className='bg-canvas' ref='canvas'/>
     return (
       <div className={`locale-${locale()}`}>
+        <canvas className='bg-canvas' ref='canvas'/>
         <img src={wechatLogo} style={{
           position: 'fixed',
           pointerEvents: 'none',

@@ -89,6 +89,9 @@ export default {
   + ' Yangpu District, Shanghai.']
   : '比赛场地将设置在上海市杨浦区邯郸路{ }220{ }号复旦大学光华楼{ }2F{ }志和堂。',
 
+  'No. 220 Handan Road, Yangpu District, Shanghai': '上海市杨浦区邯郸路{ }220{ }号',
+  'Fudan University Guanghua Building 2{} Floor': '复旦大学光华楼{ }2F{ }志和堂',
+
   'Who can apply for {T}?': '谁能够申请参加？',
 
   '{T} will be available for any kinds of students to apply across China. After submitting your application, we will select the best 300 student talents from the application pool to participate in {T}.'
