@@ -1,6 +1,5 @@
 var path = require('path')
 var webpack = require('webpack')
-var React = require('react')
 var renderToStaticMarkup = require('react-dom/server').renderToStaticMarkup
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')

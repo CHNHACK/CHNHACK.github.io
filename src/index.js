@@ -6,10 +6,12 @@ import App from './App'
 import '../asset/bulma.sass'
 import './style/index.less'
 
+// console.log(process)
+// console.log(renderToStaticMarkup(<App/>))
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
 )
 
-// console.log(renderToStaticMarkup(<App />))
 export default App
