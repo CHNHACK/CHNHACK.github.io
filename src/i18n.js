@@ -39,7 +39,7 @@ export default {
   '申请表将在{ }9{ }月初正式发布，敬请期待。',
 
   'We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected.':
-  '我们将采用滚动式学生申请活动批准流程，建议各位参赛尽早申请，已获得参赛者资格。',
+  '我们将采用滚动式学生申请活动批准流程，建议各位参赛尽早申请，以获得参赛者资格。',
 
   // Timeline
   'Hackathon Schedule': '活动日程',
@@ -107,8 +107,7 @@ export default {
   '{T} is the perfect time and place to learn! No one is born to code perfectly. We will encourage starters to join us and learn from the technical masters within their development fields. Of course, we would also suggest you to take advantage of some great learning tools such as Jisuanke, Code Academy, Udacity, Coursera, etc.': '参加{ }{T}{ }是你学习编程的最佳机会！没有人天生就会编程，我们鼓励初学者参与，并将为初学者配相关的技术指导，带你成为老司机！当然，我们也建议申请者，可以提前通过如计蒜客、Code Academy、Udacity、Coursera{ }等方式自学哦！',
 
   'After my application get accepted, how can I build a team?': '申请通过后，我们将如何组队？',
-  '{T} encourages students to build team by themselves. During your application process, you will be asked about who you will apply together as a team. If you did come up with a team in advance, please fill out their name and basic information. We will take consideration of every single application and pick the best student applicants to join us!': '我们将鼓励大家自由组队的方式，并将在正式申请时，询问申请人是否与其他申请者已提前组队。如果有提前组队的意向，请将他们的姓名填入申请表中。我们将会进行综合地考虑，筛选每一位优秀的学生！',
-  'Please make sure each team allows two to five students together. We will provide selected applicants opportunity to team up online, but if you cannot find a team before the hackathon, we will also offer you a chance for team building and brain storming after the kick-off ceremony.': '组队人数需保证至少{ }2{ }人，最多{ }5{ }人。我们会为选中的学生提供线上赛前组队的机会，但如果你不能在赛前找到团队成员，我们也将会在开幕式后提供组队以及头脑风暴的机会。',
+  '{T} encourages students to build team by themselves. Please make sure each team allows two to five students together. We will provide selected applicants opportunity to team up online, but if you cannot find a team before the hackathon, we will also offer you a chance for team building and brain storming after the kick-off ceremony.': '我们将鼓励大家自由组队的方式。组队人数需保证至少{ }2{ }人，最多{ }5{ }人。我们会为选中的学生提供线上赛前组队的机会，但如果你不能在赛前找到团队成员，我们也将会在开幕式后提供组队以及头脑风暴的机会。',
 
   'What should I bring during {T}?': '成功通过筛选后，我们需要带些什么东西参加比赛？',
   'All you need to bring is your ID card, student ID, laptop, change of clothes and toiletries. Of course, we will provide you meals, drinks, Wifi and power as well as rest and entertainment areas. We would provide out-of-town students blankets for sleeping, but to prevent overwhelming demand, we suggest you to prepare a sleeping bag or blanket for yourself.': '我们将为比赛学生提供充足的吃、喝、网络及电源供应，以及休息和娱乐区域。你需要携带身份证、学生证、便携式电脑、换洗衣服及洗漱用具。当然，我们会为外校学生提供休息区以及睡觉必备的毯子，但为避免供应紧张，我们建议学生准备睡袋或毯子。',
