@@ -121,7 +121,7 @@ export default {
   // Other
   'Hosts': '主办方',
   'Event Organizer': '策划协办方',
-  'Sponsors': '赞助方',
+  'Sponsors': '合作赞助方',
 
   'The Committee of Youth League at Fudan University': '共青团复旦大学委员会',
   'The School of Computer Science at Fudan University': '复旦大学计算机科学技术学院',
