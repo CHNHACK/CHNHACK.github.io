@@ -65,30 +65,24 @@ export default class extends Component {
           </div>
           <h2 className='title'>{__`Sponsors`}</h2>
           <div className='content space-bottom-a-lot'>
-            <p>{__`We are currently in progress working with sponsor companies. We will release their brands soon!`}</p>
-            <p>{__`If your company would like to sponsor us, please email us at ${<a href='mailto:sponsor@grapetech.org'>sponsor@grapetech.org</a>}! We would love to have you here at {T}!`}</p>
-          </div>
-          <div className='content space-bottom-a-lot'>
             <div className='columns has-text-centered wrap'>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={ibm}/>
+                <img className='sponsor-logo padding--1' src={ibm}/>
                 <p className='sponsor-text'>{__`IBM`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={bluemix}/>
+                <img className='sponsor-logo padding--1' src={bluemix}/>
                 <p className='sponsor-text'>{__`IBM Bluemix`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={ms}/>
+                <img className='sponsor-logo padding--2' src={ms}/>
                 <p className='sponsor-text'>{__`Microsoft`}</p>
               </div>
+            </div>
+            <div className='columns has-text-centered wrap'>
               <div className='column flex-1'>
                 <img className='sponsor-logo padding' src={huawei}/>
                 <p className='sponsor-text'>{__`华为`}</p>
-              </div>
-              <div className='column flex-1'>
-                <img className='sponsor-logo padding' src={vive}/>
-                <p className='sponsor-text'>{__`HTC Vive`}</p>
               </div>
               <div className='column flex-1'>
                 <img className='sponsor-logo' src={github}/>
@@ -103,8 +97,8 @@ export default class extends Component {
                 <p className='sponsor-text'>{__`Twilio`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={wolfram}/>
-                <p className='sponsor-text'>{__`Wolfram`}</p>
+                <img className='sponsor-logo padding' src={vive}/>
+                <p className='sponsor-text'>{__`HTC Vive`}</p>
               </div>
               <div className='column flex-1'>
                 <img className='sponsor-logo padding' src={arduino}/>
@@ -123,8 +117,8 @@ export default class extends Component {
                 <p className='sponsor-text'>{__`Ruff`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={frog}/>
-                <p className='sponsor-text'>{__`Frog Design`}</p>
+                <img className='sponsor-logo' src={wolfram}/>
+                <p className='sponsor-text'>{__`Wolfram`}</p>
               </div>
               <div className='column flex-1'>
                 <img className='sponsor-logo' src={jisuanke}/>
@@ -136,8 +130,16 @@ export default class extends Component {
               </div>
             </div>
           </div>
+          <div className='content space-bottom-a-lot'>
+            <p>{__`We are currently in progress working with sponsor companies. We will release their brands soon!`}</p>
+            <p>{__`If your company would like to sponsor us, please email us at ${<a href='mailto:sponsor@grapetech.org'>sponsor@grapetech.org</a>}! We would love to have you here at {T}!`}</p>
+          </div>
         </div>
       </section>
     )
   }
+  // <div className='column flex-1'>
+  //   <img className='sponsor-logo' src={frog}/>
+  //   <p className='sponsor-text'>{__`Frog Design`}</p>
+  // </div>
 }
