@@ -17,7 +17,7 @@
   font-weight: 400;
   src: local('ABeeZee'), local('ABeeZee-Regular'),
        url(https://fonts.gstatic.com/s/abeezee/v9/yTibYMDoFfqshd01j2jrvwLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'),
-       url(http://fontstatic.useso.com/s/abeezee/v9/TV7JXr7j4tW7mgYreANhGQ.woff2) format('woff2');
+       url(http://fontstatic.useso.com/s/abeezee/v9/JYPhMn-3Xw-JGuyB-fEdNA.ttf) format('truetype');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
@@ -578,7 +578,7 @@ a {
   to { transform: translateY(20px); }
 }
 
-.sponsor-logo {
+.ss-logo {
   height: 150px;
   margin: -10px auto 0 auto;
 }
@@ -668,6 +668,34 @@ body.logo1-loaded.logo2-loaded {
   }
 }
 
+.social .icon {
+  cursor: pointer;
+}
+
+.wechat-icon {
+  position: relative;
+  img {
+    position: absolute;
+    max-width: 180px;
+    left: 50%;
+    bottom: 100%;
+    box-shadow: 12px 12px 2px #cfcfcf;
+    transform: translateX(-50%);
+    transition: all .3s ease;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+  &:hover, &:active {
+    img {
+      visibility: visible;
+      opacity: 1;
+      box-shadow: 4px 4px #afafaf;
+      transform: translateX(-50%) translateY(-12px);
+    }
+  }
+}
+
 .wrap {
   flex-wrap: wrap;
   align-items: center;
@@ -675,7 +703,7 @@ body.logo1-loaded.logo2-loaded {
   .flex-1 {
     flex: initial;
   }
-  .sponsor-logo {
+  .ss-logo {
     padding: 10px;
     max-width: 300px;
     max-height: 120px;
@@ -699,7 +727,7 @@ body.logo1-loaded.logo2-loaded {
       padding: 25px;
     }
   }
-  .sponsor-text {
+  .ss-text {
     font-size: 0;
     visibility: hidden;
   }

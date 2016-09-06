@@ -20,6 +20,7 @@ SmoothScroll.polyfill()
 export default class extends Component {
   constructor() {
     super()
+    this.scrollTo = this.scrollTo.bind(this)
   }
 
   componentDidMount() {
@@ -27,6 +28,9 @@ export default class extends Component {
     window.updateLocaleIndex = () => {
       this.forceUpdate()
     }
+    window.addEventListener('resize', () => {
+      SmoothScroll.polyfill()
+    })
   }
 
   componentWillReceiveProps(nextProps) {
@@ -39,8 +43,11 @@ export default class extends Component {
         document.body.scrollIntoView({ behavior: 'smooth' })
         return
       }
+      // if (window.innerWidth > 640) {
       ReactDOM.findDOMNode(this.refs[section]).scrollIntoView({ behavior: 'smooth' })
-      //ReactDOM.findDOMNode(this.refs[section]).scrollIntoView()
+      // } else {
+      //   ReactDOM.findDOMNode(this.refs[section]).scrollIntoView()
+      // }
     }, 200)
   }
 

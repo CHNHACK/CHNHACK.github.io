@@ -31,15 +31,17 @@ export default {
 
   // Signup
   'Application Process': '活动申请',
-  'here': '留给我们',
+  'student application': '正式申请表',
   'Please leave your contact info {}, we will keep you updated for further progress.':
   '请将您的联系信息{ }{}，我们将及时通知您活动进展。',
 
-  'The APPLICATION will open on early September, 2016, we welcome you to apply!':
-  '申请表将在{ }9{ }月初正式发布，敬请期待。',
+  'Please fill out our official {} for {T}, after your completion, please scan the HACKx wechat public page to join our notification group.': '我们欢迎各类学科学生的报名申请，请您填写链接中的{ }{}，完成后扫码加入到{ }HACKx{ }的微信群中；',
 
-  'We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected.':
-  '我们将采用滚动式学生申请活动批准流程，建议各位参赛尽早申请，以获得参赛者资格。',
+  'The APPLICATION will open on early September, 2016, we welcome you to apply!':
+  '我们将采用{ }“滚动式”{ }学生申请筛选流程，建议各位参赛者尽早申请，以增加获得参赛者资格的可能性；',
+
+  'The application will be closed on Sunday, September 25th at 10:00 PM China Standard Time.':
+  '正式申请将在{ }9{ }月{ }25{ }日 北京时间{ }10:00 PM{ }截止。',
 
   // Timeline
   'Hackathon Schedule': '活动日程',
@@ -129,8 +131,8 @@ export default {
   'Grape Tech (Shenzhen) LLC': '葡萄科技技术（深圳）有限公司',
   'Fudan Developer Network': '复旦开发者网络',
 
-  'We are currently in progress working with sponsor companies. We will release their brands soon!':
-  '我们在与各家赞助公司沟通合作，将会在赛前发布！',
+  'We will have even more sponsors to be released soon, please wait for our updates!':
+  '还有更多的企业会在近期发布，敬请期待我们的更新！',
   'If your company would like to sponsor us, please email us at {}! We would love to have you here at {T}!': '如贵公司也有意向赞助本次活动？请邮件至{ }{}{ }我们期待您的参与！',
 
   // Date

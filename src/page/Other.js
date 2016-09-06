@@ -39,99 +39,99 @@ export default class extends Component {
           <div className='content space-bottom-a-lot'>
             <div className='columns has-text-centered'>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={host1} style={{padding: 13}}/>
-                <p className='sponsor-text'>{__`The Committee of Youth League at Fudan University`}</p>
+                <img className='ss-logo' src={host1} style={{padding: 13}}/>
+                <p className='ss-text'>{__`The Committee of Youth League at Fudan University`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={host2}/>
-                <p className='sponsor-text'>{__`The School of Computer Science at Fudan University`}</p>
+                <img className='ss-logo' src={host2}/>
+                <p className='ss-text'>{__`The School of Computer Science at Fudan University`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={host3}/>
-                <p className='sponsor-text'>{__`Fudan University’s Student Union`}</p>
+                <img className='ss-logo' src={host3}/>
+                <p className='ss-text'>{__`Fudan University’s Student Union`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={fddn}/>
-                <p className='sponsor-text'>{__`Fudan Developer Network`}</p>
+                <img className='ss-logo' src={fddn}/>
+                <p className='ss-text'>{__`Fudan Developer Network`}</p>
               </div>
             </div>
           </div>
           <h2 className='title'>{__`Event Organizer`}</h2>
           <div className='content space-bottom-a-lot'>
             <div className='has-text-centered'>
-              <img className='sponsor-logo' src={host}/>
-              <p className='sponsor-text'>{__`Grape Tech (Shenzhen) LLC`}</p>
+              <img className='ss-logo' src={host}/>
+              <p className='ss-text'>{__`Grape Tech (Shenzhen) LLC`}</p>
             </div>
           </div>
           <h2 className='title'>{__`Sponsors`}</h2>
           <div className='content space-bottom-a-lot'>
             <div className='columns has-text-centered wrap'>
               <div className='column flex-1'>
-                <img className='sponsor-logo padding--1' src={ibm}/>
-                <p className='sponsor-text'>{__`IBM`}</p>
+                <img className='ss-logo padding--1' src={ibm}/>
+                <p className='ss-text'>{__`IBM`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo padding--1' src={bluemix}/>
-                <p className='sponsor-text'>{__`IBM Bluemix`}</p>
+                <img className='ss-logo' src={bluemix}/>
+                <p className='ss-text'>{__`IBM Bluemix`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo padding--2' src={ms}/>
-                <p className='sponsor-text'>{__`Microsoft`}</p>
+                <img className='ss-logo padding--2' src={ms}/>
+                <p className='ss-text'>{__`Microsoft`}</p>
               </div>
             </div>
             <div className='columns has-text-centered wrap'>
               <div className='column flex-1'>
-                <img className='sponsor-logo padding' src={huawei}/>
-                <p className='sponsor-text'>{__`华为`}</p>
+                <img className='ss-logo padding' src={huawei}/>
+                <p className='ss-text'>{__`华为`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={github}/>
-                <p className='sponsor-text'>{__`GitHub`}</p>
+                <img className='ss-logo' src={github}/>
+                <p className='ss-text'>{__`GitHub`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={qingcloud}/>
-                <p className='sponsor-text'>{__`青云`}</p>
+                <img className='ss-logo' src={qingcloud}/>
+                <p className='ss-text'>{__`青云`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo padding-2' src={twilio}/>
-                <p className='sponsor-text'>{__`Twilio`}</p>
+                <img className='ss-logo padding-2' src={twilio}/>
+                <p className='ss-text'>{__`Twilio`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo padding' src={vive}/>
-                <p className='sponsor-text'>{__`HTC Vive`}</p>
+                <img className='ss-logo padding' src={vive}/>
+                <p className='ss-text'>{__`HTC Vive`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo padding' src={arduino}/>
-                <p className='sponsor-text'>{__`Arduino`}</p>
+                <img className='ss-logo padding' src={arduino}/>
+                <p className='ss-text'>{__`Arduino`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={draper}/>
-                <p className='sponsor-text'>{__`Draper University`}</p>
+                <img className='ss-logo' src={draper}/>
+                <p className='ss-text'>{__`Draper University`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo padding--1' src={thiel}/>
-                <p className='sponsor-text'>{__`Thiel Foundation`}</p>
+                <img className='ss-logo padding--1' src={thiel}/>
+                <p className='ss-text'>{__`Thiel Foundation`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo padding--1' src={ruff}/>
-                <p className='sponsor-text'>{__`Ruff`}</p>
+                <img className='ss-logo padding--1' src={ruff}/>
+                <p className='ss-text'>{__`Ruff`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={wolfram}/>
-                <p className='sponsor-text'>{__`Wolfram`}</p>
+                <img className='ss-logo' src={wolfram}/>
+                <p className='ss-text'>{__`Wolfram`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={jisuanke}/>
-                <p className='sponsor-text'>{__`计蒜客`}</p>
+                <img className='ss-logo' src={jisuanke}/>
+                <p className='ss-text'>{__`计蒜客`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='sponsor-logo' src={zhen}/>
-                <p className='sponsor-text'>{__`真格基金`}</p>
+                <img className='ss-logo' src={zhen}/>
+                <p className='ss-text'>{__`真格基金`}</p>
               </div>
             </div>
           </div>
           <div className='content space-bottom-a-lot'>
-            <p>{__`We are currently in progress working with sponsor companies. We will release their brands soon!`}</p>
+            <p>{__`We will have even more sponsors to be released soon, please wait for our updates!`}</p>
             <p>{__`If your company would like to sponsor us, please email us at ${<a href='mailto:sponsor@grapetech.org'>sponsor@grapetech.org</a>}! We would love to have you here at {T}!`}</p>
           </div>
         </div>
@@ -139,7 +139,7 @@ export default class extends Component {
     )
   }
   // <div className='column flex-1'>
-  //   <img className='sponsor-logo' src={frog}/>
-  //   <p className='sponsor-text'>{__`Frog Design`}</p>
+  //   <img className='ss-logo' src={frog}/>
+  //   <p className='ss-text'>{__`Frog Design`}</p>
   // </div>
 }

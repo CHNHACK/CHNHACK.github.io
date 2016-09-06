@@ -13,6 +13,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 import wechatLogo from '../style/image/logo-wechat.jpg'
+import wechatQR from '../style/image/qr.jpg'
 
 let footerTop = 0
 let sectionTop = []
@@ -143,7 +144,7 @@ export default class extends Component {
         }} />
         <Navbar fixedTop={this.state.fixedTop} darkBg={this.state.darkBg}/>
         {this.props.children}
-        <section className='hero bright'>
+        <section className='hero bright social'>
           <div className='hero-body'>
             <div className='container'>
               <nav className="level is-mobile">
@@ -161,7 +162,8 @@ export default class extends Component {
                 </div>
                 <div className="level-item has-text-centered">
                   <p className="heading">WeChat</p>
-                  <p className="icon is-large">
+                  <p className="icon is-large wechat-icon">
+                    <img src={wechatQR}/>
                     <Icon name='wechat'/>
                   </p>
                 </div>
