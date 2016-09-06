@@ -67,65 +67,95 @@ export default class extends Component {
           <div className='content space-bottom-a-lot'>
             <div className='columns has-text-centered wrap'>
               <div className='column flex-1'>
-                <img className='ss-logo padding--1' src={ibm}/>
+                <a className='ss-link' href='//www.ibm.com/' target='_blank'>
+                  <img className='ss-logo padding--1' src={ibm}/>
+                </a>
                 <p className='ss-text'>{__`IBM`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo' src={bluemix}/>
+                <a className='ss-link' href='//bluemix.net/' target='_blank'>
+                  <img className='ss-logo' src={bluemix}/>
+                </a>
                 <p className='ss-text'>{__`IBM Bluemix`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo padding--2' src={ms}/>
+                <a className='ss-link' href='//www.microsoft.com/' target='_blank'>
+                  <img className='ss-logo padding--2' src={ms}/>
+                </a>
                 <p className='ss-text'>{__`Microsoft`}</p>
               </div>
             </div>
             <div className='columns has-text-centered wrap'>
               <div className='column flex-1'>
-                <img className='ss-logo padding' src={huawei}/>
+                <a className='ss-link' href='//www.huawei.com/' target='_blank'>
+                  <img className='ss-logo padding' src={huawei}/>
+                </a>
                 <p className='ss-text'>{__`华为`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo' src={github}/>
+                <a className='ss-link' href='//www.github.com/' target='_blank'>
+                  <img className='ss-logo' src={github}/>
+                </a>
                 <p className='ss-text'>{__`GitHub`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo' src={qingcloud}/>
+                <a className='ss-link' href='//www.qingcloud.com/' target='_blank'>
+                  <img className='ss-logo' src={qingcloud}/>
+                </a>
                 <p className='ss-text'>{__`青云`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo padding-2' src={twilio}/>
+                <a className='ss-link' href='//www.twilio.com/' target='_blank'>
+                  <img className='ss-logo padding-2' src={twilio}/>
+                </a>
                 <p className='ss-text'>{__`Twilio`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo padding' src={vive}/>
+                <a className='ss-link' href='//www.htcvive.com/' target='_blank'>
+                  <img className='ss-logo padding' src={vive}/>
+                </a>
                 <p className='ss-text'>{__`HTC Vive`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo padding' src={arduino}/>
+                <a className='ss-link' href='//www.arduino.cc/' target='_blank'>
+                  <img className='ss-logo padding' src={arduino}/>
+                </a>
                 <p className='ss-text'>{__`Arduino`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo' src={draper}/>
+                <a className='ss-link' href='//www.draperuniversity.com/' target='_blank'>
+                  <img className='ss-logo' src={draper}/>
+                </a>
                 <p className='ss-text'>{__`Draper University`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo padding--1' src={thiel}/>
+                <a className='ss-link' href='//www.thielfoundation.org/' target='_blank'>
+                  <img className='ss-logo padding--1' src={thiel}/>
+                </a>
                 <p className='ss-text'>{__`Thiel Foundation`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo padding--1' src={ruff}/>
+                <a className='ss-link' href='//ruff.io/' target='_blank'>
+                  <img className='ss-logo padding--1' src={ruff}/>
+                </a>
                 <p className='ss-text'>{__`Ruff`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo' src={wolfram}/>
+                <a className='ss-link' href='//www.wolfram.com/' target='_blank'>
+                  <img className='ss-logo' src={wolfram}/>
+                </a>
                 <p className='ss-text'>{__`Wolfram`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo' src={jisuanke}/>
+                <a className='ss-link' href='//www.jisuanke.com/' target='_blank'>
+                  <img className='ss-logo' src={jisuanke}/>
+                </a>
                 <p className='ss-text'>{__`计蒜客`}</p>
               </div>
               <div className='column flex-1'>
-                <img className='ss-logo' src={zhen}/>
+                <a className='ss-link' href='//www.zhenfund.com/' target='_blank'>
+                  <img className='ss-logo' src={zhen}/>
+                </a>
                 <p className='ss-text'>{__`真格基金`}</p>
               </div>
             </div>

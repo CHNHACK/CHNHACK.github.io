@@ -35,9 +35,9 @@ export default {
   'Please leave your contact info {}, we will keep you updated for further progress.':
   '请将您的联系信息{ }{}，我们将及时通知您活动进展。',
 
-  'Please fill out our official {} for {T}, after your completion, please scan the HACKx wechat public page to join our notification group.': '我们欢迎各类学科学生的报名申请，请您填写链接中的{ }{}，完成后扫码加入到{ }HACKx{ }的微信群中；',
+  'Please fill out our official {} for {T}, after your completion, please scan the HACKx wechat public page to join our notification group.': '我们欢迎各类学科学生的报名申请，请您填写链接中的{ }{}，完成后扫码加入到{ }HACKx{ }的微信公众号中；',
 
-  'The APPLICATION will open on early September, 2016, we welcome you to apply!':
+  'We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected.':
   '我们将采用{ }“滚动式”{ }学生申请筛选流程，建议各位参赛者尽早申请，以增加获得参赛者资格的可能性；',
 
   'The application will be closed on Sunday, September 25th at 10:00 PM China Standard Time.':
