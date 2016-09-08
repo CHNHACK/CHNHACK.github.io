@@ -82,7 +82,7 @@ export default class extends Component {
     let canvas = ReactDOM.findDOMNode(this.refs.canvas)
 
     window.addEventListener('scroll', this.scroll)
-    window.addEventListener('touchmove', this.scroll)
+    // window.addEventListener('touchmove', this.scroll)
     window.updateLocaleContainer = () => {
       this.forceUpdate()
     }
