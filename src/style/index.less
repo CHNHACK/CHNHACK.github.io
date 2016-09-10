@@ -118,6 +118,8 @@ section.is-fullheight {
     pointer-events: inherit;
     &> div > a {
       opacity: 1;
+      background-color: rgba(134, 134, 134, 0.16);
+      text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 
       .delay(@n, @i: 1) when (@i =< @n) {
         &:nth-of-type(@{i}) {

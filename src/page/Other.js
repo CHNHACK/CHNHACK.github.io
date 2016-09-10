@@ -29,6 +29,7 @@ import jisuanke from '../style/image/sponsor/jisuanke.png'
 import frog from '../style/image/sponsor/frog.png'
 import wolfram from '../style/image/sponsor/wolfram.png'
 import ruff from '../style/image/sponsor/ruff.png'
+import dfj from '../style/image/sponsor/dfj.png'
 
 export default class extends Component {
   render() {
@@ -130,7 +131,7 @@ export default class extends Component {
               </div>
               <div className='column flex-1'>
                 <a className='ss-link' href='//www.thielfoundation.org/' target='_blank'>
-                  <img className='ss-logo padding--1' src={thiel}/>
+                  <img className='ss-logo padding-1' src={thiel}/>
                 </a>
                 <p className='ss-text'>{__`Thiel Foundation`}</p>
               </div>
@@ -157,6 +158,29 @@ export default class extends Component {
                   <img className='ss-logo' src={zhen}/>
                 </a>
                 <p className='ss-text'>{__`真格基金`}</p>
+              </div>
+            </div>
+          </div>
+          <h2 className='title'>{__`Investment Partner`}</h2>
+          <div className='content space-bottom-a-lot'>
+            <div className='columns has-text-centered wrap'>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.thielfoundation.org/' target='_blank'>
+                  <img className='ss-logo padding-1' src={thiel}/>
+                </a>
+                <p className='ss-text'>{__`Thiel Foundation`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.zhenfund.com/' target='_blank'>
+                  <img className='ss-logo' src={zhen}/>
+                </a>
+                <p className='ss-text'>{__`真格基金`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//dfj.com/' target='_blank'>
+                  <img className='ss-logo padding--1' src={dfj}/>
+                </a>
+                <p className='ss-text'>{__`DFJ Fund`}</p>
               </div>
             </div>
           </div>

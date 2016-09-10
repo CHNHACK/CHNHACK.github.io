@@ -1,6 +1,7 @@
 var path = require('path')
 var autoprefixer = require('autoprefixer')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
+var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 var srcPath = path.resolve(__dirname, 'src')
 var indexHtmlPath = path.resolve(__dirname, 'index.html')
@@ -23,10 +24,10 @@ module.exports = {
     loaders: [
       {
         test: /\.(less|css)$/,
-        loader: 'style!css!postcss!less',
+        loader: ExtractTextPlugin.extract('style', 'css!postcss!less'),
       }, {
         test: /\.(scss|sass)$/,
-        loader: 'style!css!sass',
+        loader: ExtractTextPlugin.extract('style', 'css!sass'),
       }, {
         test: /\.(js|jsx|es6)$/,
         exclude: /node_modules/,
@@ -44,6 +45,7 @@ module.exports = {
     return [autoprefixer]
   },
   plugins: [
+    new ExtractTextPlugin('[name].[hash].css'),
     new HtmlWebpackPlugin({
       inject: true,
       template: indexHtmlPath,
