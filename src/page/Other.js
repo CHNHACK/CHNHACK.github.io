@@ -130,12 +130,6 @@ export default class extends Component {
                 <p className='ss-text'>{__`Draper University`}</p>
               </div>
               <div className='column flex-1'>
-                <a className='ss-link' href='//www.thielfoundation.org/' target='_blank'>
-                  <img className='ss-logo padding-1' src={thiel}/>
-                </a>
-                <p className='ss-text'>{__`Thiel Foundation`}</p>
-              </div>
-              <div className='column flex-1'>
                 <a className='ss-link' href='//ruff.io/' target='_blank'>
                   <img className='ss-logo padding--1' src={ruff}/>
                 </a>
@@ -152,12 +146,6 @@ export default class extends Component {
                   <img className='ss-logo' src={jisuanke}/>
                 </a>
                 <p className='ss-text'>{__`计蒜客`}</p>
-              </div>
-              <div className='column flex-1'>
-                <a className='ss-link' href='//www.zhenfund.com/' target='_blank'>
-                  <img className='ss-logo' src={zhen}/>
-                </a>
-                <p className='ss-text'>{__`真格基金`}</p>
               </div>
             </div>
           </div>
