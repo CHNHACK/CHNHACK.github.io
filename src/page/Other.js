@@ -30,6 +30,16 @@ import frog from '../style/image/sponsor/frog.png'
 import wolfram from '../style/image/sponsor/wolfram.png'
 import ruff from '../style/image/sponsor/ruff.png'
 import dfj from '../style/image/sponsor/dfj.png'
+import juejin from '../style/image/sponsor/juejin.png'
+import liulishuo from '../style/image/sponsor/liulishuo.png'
+import websummit from '../style/image/sponsor/websummit.png'
+import dji from '../style/image/sponsor/dji.png'
+import innospring from '../style/image/sponsor/innospring.png'
+import zkcx from '../style/image/sponsor/zkcx.png'
+import sv from '../style/image/sponsor/sv.png'
+import cksd from '../style/image/sponsor/cksd.png'
+import themakers from '../style/image/sponsor/themakers.png'
+import tuoniao from '../style/image/sponsor/tuoniao.png'
 
 export default class extends Component {
   render() {
@@ -147,6 +157,24 @@ export default class extends Component {
                 </a>
                 <p className='ss-text'>{__`计蒜客`}</p>
               </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.liulishuo.com/' target='_blank'>
+                  <img className='ss-logo' src={liulishuo}/>
+                </a>
+                <p className='ss-text'>{__`英语流利说`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//websummit.net/' target='_blank'>
+                  <img className='ss-logo' src={websummit}/>
+                </a>
+                <p className='ss-text'>{__`Web Summit`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.dji.com/' target='_blank'>
+                  <img className='ss-logo padding' src={dji}/>
+                </a>
+                <p className='ss-text'>{__`大疆创新`}</p>
+              </div>
             </div>
           </div>
           <h2 className='title'>{__`Investment Partner`}</h2>
@@ -169,6 +197,53 @@ export default class extends Component {
                   <img className='ss-logo padding--1' src={dfj}/>
                 </a>
                 <p className='ss-text'>{__`DFJ Fund`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.casstar.com.cn/' target='_blank'>
+                  <img className='ss-logo' src={zkcx}/>
+                </a>
+                <p className='ss-text'>{__`中科创星`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.innospring.net/' target='_blank'>
+                  <img className='ss-logo' src={innospring}/>
+                </a>
+                <p className='ss-text'>{__`InnoSpring`}</p>
+              </div>
+            </div>
+          </div>
+          <h2 className='title'>{__`合作宣传方`}</h2>
+          <div className='content space-bottom-a-lot'>
+            <div className='columns has-text-centered wrap'>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//gold.xitu.io/' target='_blank'>
+                  <img className='ss-logo padding-1' src={juejin}/>
+                </a>
+                <p className='ss-text'>{__`掘金`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.svinsight.com/' target='_blank'>
+                  <img className='ss-logo padding-2' src={sv}/>
+                </a>
+                <p className='ss-text'>{__`硅谷密探`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//weibo.com/u/5696359395/' target='_blank'>
+                  <img className='ss-logo padding--2' src={cksd}/>
+                </a>
+                <p className='ss-text'>{__`创客时代`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.themakers.cn/' target='_blank'>
+                  <img className='ss-logo padding--1' src={themakers}/>
+                </a>
+                <p className='ss-text'>{__`创客星球`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//tuoniao.fm/' target='_blank'>
+                  <img className='ss-logo padding' src={tuoniao}/>
+                </a>
+                <p className='ss-text'>{__`鸵鸟电台`}</p>
               </div>
             </div>
           </div>

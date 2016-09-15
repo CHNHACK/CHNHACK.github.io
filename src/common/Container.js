@@ -146,7 +146,7 @@ export default class extends Component {
         {this.props.children}
         <section className='hero bright social'>
           <div className='hero-body'>
-            <div className='container'>
+            <div className='container social'>
               <nav className="level is-mobile">
                 <div className="level-item has-text-centered">
                   <p className="heading">Facebook</p>
@@ -169,9 +169,9 @@ export default class extends Component {
                 </div>
                 <div className="level-item has-text-centered">
                   <p className="heading">Weibo</p>
-                  <p className="icon is-large">
+                  <a className="icon is-large" target="_blank" href="//weibo.com/u/6023318397">
                     <Icon name='weibo'/>
-                  </p>
+                  </a>
                 </div>
               </nav>
             </div>
