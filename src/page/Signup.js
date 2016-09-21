@@ -19,7 +19,7 @@ export default class extends Component {
               </a>
             } for {T}, after your completion, please scan the HACKx wechat public page to join our notification group.`}</p>
             <p>{__`We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected.`}</p>
-            <p>{__`The application will be closed on Sunday, September 25th at 10:00 PM China Standard Time.`}</p>
+            <p>{__`The application will be closed on Friday, September 30th at 10:00 PM China Standard Time.`}</p>
           </div>
         </div>
       </section>

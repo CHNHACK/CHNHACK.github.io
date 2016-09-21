@@ -40,8 +40,8 @@ export default {
   'We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected.':
   '我们将采用{ }“滚动式”{ }学生申请筛选流程，建议各位参赛者尽早申请，以增加获得参赛者资格的可能性；',
 
-  'The application will be closed on Sunday, September 25th at 10:00 PM China Standard Time.':
-  '正式申请将在{ }9{ }月{ }25{ }日 北京时间{ }10:00 PM{ }截止。',
+  'The application will be closed on Friday, September 30th at 10:00 PM China Standard Time.':
+  '正式申请将在{ }9{ }月{ }30{ }日 北京时间{ }10:00 PM{ }截止。',
 
   // Timeline
   'Hackathon Schedule': '活动日程',

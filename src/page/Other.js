@@ -40,6 +40,7 @@ import sv from '../style/image/sponsor/sv.png'
 import cksd from '../style/image/sponsor/cksd.png'
 import themakers from '../style/image/sponsor/themakers.png'
 import tuoniao from '../style/image/sponsor/tuoniao.png'
+import gs from '../style/image/sponsor/gs.png'
 
 export default class extends Component {
   render() {
@@ -95,13 +96,19 @@ export default class extends Component {
                 </a>
                 <p className='ss-text'>{__`Microsoft`}</p>
               </div>
-            </div>
-            <div className='columns has-text-centered wrap'>
               <div className='column flex-1'>
-                <a className='ss-link' href='//www.huawei.com/' target='_blank'>
+                <a className='ss-link' href='//developer.huawei.com/ict/cn/' target='_blank'>
                   <img className='ss-logo padding' src={huawei}/>
                 </a>
                 <p className='ss-text'>{__`华为`}</p>
+              </div>
+            </div>
+            <div className='columns has-text-centered wrap'>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.goldmansachs.com/' target='_blank'>
+                  <img className='ss-logo padding-2' src={gs}/>
+                </a>
+                <p className='ss-text'>{__`Goldman Sachs`}</p>
               </div>
               <div className='column flex-1'>
                 <a className='ss-link' href='//www.github.com/' target='_blank'>
