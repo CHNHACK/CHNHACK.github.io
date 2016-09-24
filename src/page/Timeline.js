@@ -78,13 +78,13 @@ export default class extends Component {
             <div className='column is-half'>
               <Title>{__`September 24${<sup>th</sup>} (Saturday)`}</Title>
               <Line/>
-              <Dot time={`9/24`}>{__`IBM Bluemix{ }技术解析分享`}</Dot>
+              <Dot time={`9/24`}>{__`IBM Bluemix Tech Sharing`}</Dot>
               <Line/>
-              <Dot time={`9/27`}>{__`微软人工智能，物联网和增强现实技术分享`}</Dot>
+              <Dot time={`9/27`}>{__`Microsoft Tech Sharing`}</Dot>
               <Line/>
-              <Dot time={`9/28`}>{__`华为{ }SDN{ }开放平台与企业云服务开发技术分享`}</Dot>
+              <Dot time={`9/28`}>{__`Huawei SDN Tech Sharing`}</Dot>
               <Line/>
-              <Dot time={`10/13`}>{__`青云{ }QingCloud{ }技术及校招宣讲`}</Dot>
+              <Dot time={`10/13`}>{__`QingCloud Tech Sharing & Hiring`}</Dot>
               <Line/>
               <Title>{__`October 13${<sup>th</sup>} (Thursday)`}</Title>
               <Empty>{__`Hackathon is Ready!`}</Empty>
@@ -93,15 +93,18 @@ export default class extends Component {
               <Dot time='17:30'>{__`Event Check-in and Setup`}</Dot>
               <Line/>
               <Dot time='19:00'>{__`{T} Kickoff Ceremony`}</Dot>
+              <Line long={true}/>
+              <Dot time='19:20'>{__`Talk: The Future of Open Source Technology ${
+                <small><br/>{__`(Talk with IBM, Microsoft, Huawei and GitHub, Hosted by Professor from Fudan CS)`}</small>
+              }`}</Dot>
+              <Line long={true}/>
+              <Dot time='19:45'>{__`Speech by Zhenge Fund`}</Dot>
+              <Dot time='19:50'>{__`The Rule of {T}`}</Dot>
               <Line/>
-              <Dot time='19:20'>{__`论坛——开源技术的未来${<small><br/>复旦计院教授作为论坛主持，IBM、微软、华为、GitHub 参与</small>}`}</Dot>
+              <Dot time='20:00'>{__`Rewards from Sponsors and Introduction of Tech`}</Dot>
               <Line/>
-              <Dot time='19:45'>{__`真格基金致辞`}</Dot>
-              <Dot time='19:50'>{__`赛会规则介绍`}</Dot>
-              <Dot time='20:00'>{__`各家企业奖项和技术介绍环节`}</Dot>
-              <Line/>
-              <Dot time='21:00'>{__`{T}{ }正式开始`}</Dot>
-              <Dot time='21:00'>{__`自由组队环节`}</Dot>
+              <Dot time='21:00'>{__`Start Hacking`}</Dot>
+              <Dot time='21:00'>{__`Form Your Team`}</Dot>
               <Line/>
               <Dot time='23:00'>{__`Student Hacking in Progress and Gaming Time`}</Dot>
               <Line long={true}>{__`(Past Night Hacking Time)${<Compress/>}`}</Line>
@@ -112,20 +115,21 @@ export default class extends Component {
               <Line/>
               <Dot time='8:30'>{__`Student Hacking in Progress and Gaming Time`}</Dot>
               <Line/>
-              <Dot time='10:00'>{__`IBM{ }技术沙龙时间`}</Dot>
-              <Dot time='10:30'>{__`微软技术沙龙时间`}</Dot>
-              <Dot time='11:00'>{__`华为技术沙龙时间`}</Dot>
+              <Dot time='10:00'>{__`Tech Salon by IBM`}</Dot>
+              <Dot time='10:30'>{__`Tech Salon by Microsoft`}</Dot>
+              <Dot time='11:00'>{__`Tech Salon by Huawei`}</Dot>
               <Line/>
               <Dot time='12:00'>{__`Lunch`}</Dot>
               <Line/>
-              <Dot time='14:30'>{__`GitHub{ }技术沙龙时间`}</Dot>
-              <Dot time='15:00'>{__`青云技术沙龙时间`}</Dot>
-              <Dot time='15:30'>{__`Ruff{ }技术沙龙时间`}</Dot>
-              <Dot time='16:00'>{__`创源{ }InnoSpring{ }创业小讲堂`}</Dot>
+              <Dot time='14:30'>{__`Tech Salon by GitHub`}</Dot>
+              <Dot time='15:00'>{__`Tech Salon by QingCloud`}</Dot>
+              <Dot time='15:30'>{__`Tech Salon by Ruff`}</Dot>
+              <Line/>
+              <Dot time='16:00'>{__`Start-up Knowledge Sharedshared InnoSpring`}</Dot>
               <Line/>
               <Dot time='18:00'>{__`Dinner`}</Dot>
               <Line/>
-              <Dot time='20:30'>{__`GitHub Octocat{ }设计比拼`}</Dot>
+              <Dot time='20:30'>{__`GitHub Octocat Design Competition`}</Dot>
               <Line/>
               <Dot time='23:00'>{__`Student Hacking in Progress and Gaming Time`}</Dot>
               <Line long={true}>{__`(Past Night Hacking Time)${<Compress/>}`}</Line>
@@ -146,7 +150,7 @@ export default class extends Component {
               <Dot time='16:30'>{__`Closing and Awarding Ceremony`}</Dot>
               <Line/>
               <Dot time='17:30'/>
-              <Line long={true}>{__`与{ }IBM{ }线下对接`}<br/>{__`与微软线下对接`}<br/>{__`与华为线下对接`}</Line>
+              <Line long={true}>{__`Contact with IBM`}<br/>{__`Contact with Microsoft`}<br/>{__`Contact with Huawei`}</Line>
               <Dot/>
             </div>
           </div>
