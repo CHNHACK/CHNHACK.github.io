@@ -98,7 +98,7 @@ export default class extends Component {
                 <small><br/>{__`(Talk with IBM, Microsoft, Huawei and GitHub, Hosted by Professor from Fudan CS)`}</small>
               }`}</Dot>
               <Line long={true}/>
-              <Dot time='19:45'>{__`Speech by Zhenge Fund`}</Dot>
+              <Dot time='19:45'>{__`Speech by ZhenFund`}</Dot>
               <Dot time='19:50'>{__`The Rule of {T}`}</Dot>
               <Line/>
               <Dot time='20:00'>{__`Rewards from Sponsors and Introduction of Tech`}</Dot>

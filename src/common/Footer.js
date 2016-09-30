@@ -5,7 +5,7 @@
 import React, { Component } from 'react'
 import { Router, Route, Link, browserHistory } from 'react-router'
 
-import { TITLE } from './const'
+import { TITLE, __ } from './const'
 
 export default class extends Component {
   render() {
@@ -14,7 +14,7 @@ export default class extends Component {
         <div className='container'>
           <div className='content'>
             <p className='has-text-centered'>{TITLE} All rights reserved</p>
-            <p className='has-text-centered'>葡萄科技技术（深圳）有限公司</p>
+            <p className='has-text-centered'>{__`Grape Tech (Shenzhen) LLC`}</p>
           </div>
         </div>
       </footer>

@@ -27,7 +27,7 @@ export default {
 
   'During the course of {}, students will learn how to deliver a product under 36 hours by leveraging each team member’s skillsets and covering various functions within a team. In addition to utilizing best resources provided by sponsor companies, student developers could communicate frequently with each sponsor’s engineering group to hone in their development skills.': '在比赛过程中，每个学生将学习如何与团队协作并形成优势互补去完善项目的设计和落地成型。另外，学生们在项目开发中也可利用高科技公司提供的{ }API、SDK{ }及硬件设施，与公司内部的技术开发人进行深度沟通并协作完成插件以及产品再造。',
 
-  'Student developers could also take this chance to connect with each sponsor’s developers and recruiters, in order to find their right fit for future career. {} will also invite top-notch venture capital investors to be part of the judging committee. Students could potentially benefit from those offerings by taking their projects to the next level. We hope, by the end of {}, students will not only receive many amazing prizes, but mostly importantly have fun, make great friends and turn the craziest idea into reality!': '学生也可借此机会对接企业开发人和招聘团队，为以后技术开发及落地或者就业寻找合适的机会。学生们也可连接受邀的创投公司，将开发的项目雏形通过登台公众演示以及赛后的技术完善来获得潜在的初创投资支持，以此来完成产品或服务的商业转化。最终，学生们不但通过此项比赛收获各类奖品，而更为重要的是，学生开发者们将能够更好地实现创新、创造，并在实践中找到自己心仪的合作伙伴。',
+  'Student developers could also take this chance to connect with each sponsor’s developers and recruiters, in order to find their right fit for future career. {} will also invite top-notch venture capital investors to be part of the judging committee. Students could potentially benefit from those offerings by taking their projects to the next level. We hope, by the end of {}, students will not only receive many amazing prizes, but mostly importantly have fun, make great friends and turn the craziest idea into reality!': '学生也可借此机会对接企业开发者和招聘团队，为以后技术开发及落地或者就业寻找合适的机会。学生们也可连接受邀的创投公司，将开发的项目雏形通过登台公众演示以及赛后的技术完善来获得潜在的初创投资支持，以此来完成产品或服务的商业转化。最终，学生们不但通过此项比赛收获各类奖品，而更为重要的是，学生开发者们将能够更好地实现创新、创造，并在实践中找到自己心仪的合作伙伴。',
 
   // Signup
   'Application Process': '活动申请',
@@ -41,7 +41,7 @@ export default {
   '我们将采用{ }“滚动式”{ }学生申请筛选流程，建议各位参赛者尽早申请，以增加获得参赛者资格的可能性；',
 
   'The application will be closed on Friday, September 30th at 10:00 PM China Standard Time.':
-  '正式申请将在{ }9{ }月{ }30{ }日 北京时间{ }10:00 PM{ }截止。',
+  '正式申请将在{ }9{ }月{ }30{ }日 北京时间晚上{ }10{ }时截止。',
 
   // Timeline
   'Hackathon Schedule': '活动日程',
@@ -109,7 +109,7 @@ export default {
   '{T} is the perfect time and place to learn! No one is born to code perfectly. We will encourage starters to join us and learn from the technical masters within their development fields. Of course, we would also suggest you to take advantage of some great learning tools such as Jisuanke, Code Academy, Udacity, Coursera, etc.': '参加{ }{T}{ }是你学习编程的最佳机会！没有人天生就会编程，我们鼓励初学者参与，并将为初学者配相关的技术指导，带你成为老司机！当然，我们也建议申请者，可以提前通过如计蒜客、Code Academy、Udacity、Coursera{ }等方式自学哦！',
 
   'After my application get accepted, how can I build a team?': '申请通过后，我们将如何组队？',
-  '{T} encourages students to build team by themselves. Please make sure each team allows two to five students together. We will provide selected applicants opportunity to team up online, but if you cannot find a team before the hackathon, we will also offer you a chance for team building and brain storming after the kick-off ceremony.': '我们将鼓励大家自由组队的方式。组队人数需保证至少{ }2{ }人，最多{ }5{ }人。我们会为选中的学生提供线上赛前组队的机会，但如果你不能在赛前找到团队成员，我们也将会在开幕式后提供组队以及头脑风暴的机会。',
+  '{T} encourages students to build team by themselves. Please make sure each team allows two to five students together. We will provide selected applicants opportunity to team up online, but if you cannot find a team before the hackathon, we will also offer you a chance for team building and brain storming after the kick-off ceremony.': '我们将鼓励大家自由组队。组队人数需保证至少{ }2{ }人，最多{ }5{ }人。我们会为选中的学生提供线上赛前组队的机会，但如果你不能在赛前找到团队成员，我们也将会在开幕式后提供组队以及头脑风暴的机会。',
 
   'What should I bring during {T}?': '成功通过筛选后，我们需要带些什么东西参加比赛？',
   'All you need to bring is your ID card, student ID, laptop, change of clothes and toiletries. Of course, we will provide you meals, drinks, Wifi and power as well as rest and entertainment areas. We would provide out-of-town students blankets for sleeping, but to prevent overwhelming demand, we suggest you to prepare a sleeping bag or blanket for yourself.': '我们将为比赛学生提供充足的吃、喝、网络及电源供应，以及休息和娱乐区域。你需要携带身份证、学生证、便携式电脑、换洗衣服及洗漱用具。当然，我们会为外校学生提供休息区以及睡觉必备的毯子，但为避免供应紧张，我们建议学生准备睡袋或毯子。',
@@ -137,7 +137,7 @@ export default {
   'If your company would like to sponsor us, please email us at {}! We would love to have you here at {T}!': '如贵公司也有意向赞助本次活动？请邮件至{ }{}{ }我们期待您的参与！',
 
   // Date
-  'September 26{} (Monday)': '9{ }月{ }26{ }（周一）',
+  'September 24{} (Saturday)': '9{ }月{ }24{ }日（周六）',
   'October 13{} (Thursday)': '10{ }月{ }13{ }日（周四）',
   'October 14{} (Friday)': '10{ }月{ }14{ }日（周五）',
   'October 15{} (Saturday)': '10{ }月{ }15{ }日（周六）',
@@ -151,7 +151,7 @@ export default {
   'QingCloud Tech Sharing & Hiring': '青云{ }QingCloud{ }技术及校招宣讲',
   'Talk: The Future of Open Source Technology {}': '论坛——开源技术的未来 {}',
   '(Talk with IBM, Microsoft, Huawei and GitHub, Hosted by Professor from Fudan CS)': '（复旦计院教授作为论坛主持，IBM、微软、华为、GitHub 参与）',
-  'Speech by Zhenge Fund': '真格基金致辞',
+  'Speech by ZhenFund': '真格基金致辞',
   'The Rule of {T}': '赛会规则介绍',
   'Start Hacking': '{T}{ }正式开始',
   'Form Your Team': '自由组队环节',

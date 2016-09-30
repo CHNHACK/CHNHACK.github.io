@@ -41,6 +41,7 @@ import cksd from '../style/image/sponsor/cksd.png'
 import themakers from '../style/image/sponsor/themakers.png'
 import tuoniao from '../style/image/sponsor/tuoniao.png'
 import gs from '../style/image/sponsor/gs.png'
+import apple from '../style/image/sponsor/apple.png'
 
 export default class extends Component {
   render() {
@@ -117,16 +118,28 @@ export default class extends Component {
                 <p className='ss-text'>{__`GitHub`}</p>
               </div>
               <div className='column flex-1'>
-                <a className='ss-link' href='//www.qingcloud.com/' target='_blank'>
-                  <img className='ss-logo' src={qingcloud}/>
+                <a className='ss-link' href='//www.apple.com/' target='_blank'>
+                  <img className='ss-logo' src={apple}/>
                 </a>
-                <p className='ss-text'>{__`青云`}</p>
+                <p className='ss-text'>{__`Apple`}</p>
               </div>
               <div className='column flex-1'>
                 <a className='ss-link' href='//www.twilio.com/' target='_blank'>
                   <img className='ss-logo padding-2' src={twilio}/>
                 </a>
                 <p className='ss-text'>{__`Twilio`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.qingcloud.com/' target='_blank'>
+                  <img className='ss-logo' src={qingcloud}/>
+                </a>
+                <p className='ss-text'>{__`青云`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//www.draperuniversity.com/' target='_blank'>
+                  <img className='ss-logo' src={draper}/>
+                </a>
+                <p className='ss-text'>{__`Draper University`}</p>
               </div>
               <div className='column flex-1'>
                 <a className='ss-link' href='//www.htcvive.com/' target='_blank'>
@@ -139,12 +152,6 @@ export default class extends Component {
                   <img className='ss-logo padding' src={arduino}/>
                 </a>
                 <p className='ss-text'>{__`Arduino`}</p>
-              </div>
-              <div className='column flex-1'>
-                <a className='ss-link' href='//www.draperuniversity.com/' target='_blank'>
-                  <img className='ss-logo' src={draper}/>
-                </a>
-                <p className='ss-text'>{__`Draper University`}</p>
               </div>
               <div className='column flex-1'>
                 <a className='ss-link' href='//ruff.io/' target='_blank'>
@@ -160,7 +167,7 @@ export default class extends Component {
               </div>
               <div className='column flex-1'>
                 <a className='ss-link' href='//www.jisuanke.com/' target='_blank'>
-                  <img className='ss-logo' src={jisuanke}/>
+                  <img className='ss-logo paddingw--1' src={jisuanke}/>
                 </a>
                 <p className='ss-text'>{__`计蒜客`}</p>
               </div>
