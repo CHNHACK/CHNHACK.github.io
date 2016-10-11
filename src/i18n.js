@@ -159,12 +159,16 @@ export default {
   'Tech Salon by IBM': 'IBM{ }技术沙龙时间',
   'Tech Salon by Microsoft': '微软技术沙龙时间',
   'Tech Salon by Huawei': '华为技术沙龙时间',
+  'Tech Salon by Apple': '苹果技术沙龙时间',
   'Tech Salon by GitHub': 'GitHub{ }技术沙龙时间',
+  'Tech Salon by Goldman Sachs': '高盛技术沙龙时间',
   'Tech Salon by QingCloud': '青云技术沙龙时间',
   'Tech Salon by Ruff': 'Ruff{ }技术沙龙时间',
   'GitHub Octocat Design Competition': 'GitHub Octocat{ }设计比拼',
   'Start-up Knowledge Sharedshared InnoSpring': '创源{ }InnoSpring{ }创业小讲堂',
   'Contact with IBM': '与{ }IBM{ }线下对接',
   'Contact with Microsoft': '与微软线下对接',
-  'Contact with Huawei': '与华为线下对接'
+  'Contact with Huawei': '与华为线下对接',
+
+  'HTC Tech Training': 'HTC{ }技术培训时间'
 }

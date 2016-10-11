@@ -106,6 +106,7 @@ export default class extends Component {
               <Dot time='21:00'>{__`Start Hacking`}</Dot>
               <Dot time='21:00'>{__`Form Your Team`}</Dot>
               <Line/>
+              <Dot time='10:30'>{__`HTC Tech Training`}</Dot>
               <Dot time='23:00'>{__`Student Hacking in Progress and Gaming Time`}</Dot>
               <Line long={true}>{__`(Past Night Hacking Time)${<Compress/>}`}</Line>
             </div>
@@ -118,14 +119,16 @@ export default class extends Component {
               <Dot time='10:00'>{__`Tech Salon by IBM`}</Dot>
               <Dot time='10:30'>{__`Tech Salon by Microsoft`}</Dot>
               <Dot time='11:00'>{__`Tech Salon by Huawei`}</Dot>
+              <Dot time='11:30'>{__`Tech Salon by Apple`}</Dot>
               <Line/>
               <Dot time='12:00'>{__`Lunch`}</Dot>
               <Line/>
               <Dot time='14:30'>{__`Tech Salon by GitHub`}</Dot>
-              <Dot time='15:00'>{__`Tech Salon by QingCloud`}</Dot>
-              <Dot time='15:30'>{__`Tech Salon by Ruff`}</Dot>
+              <Dot time='15:00'>{__`Tech Salon by Goldman Sachs`}</Dot>
+              <Dot time='15:30'>{__`Tech Salon by QingCloud`}</Dot>
+              <Dot time='16:00'>{__`Tech Salon by Ruff`}</Dot>
               <Line/>
-              <Dot time='16:00'>{__`Start-up Knowledge Sharedshared InnoSpring`}</Dot>
+              <Dot time='16:30'>{__`Start-up Knowledge Sharedshared InnoSpring`}</Dot>
               <Line/>
               <Dot time='18:00'>{__`Dinner`}</Dot>
               <Line/>
@@ -146,7 +149,6 @@ export default class extends Component {
               <Dot time='12:30'>{__`Exhibition Prep and Break`}</Dot>
               <Line/>
               <Dot time='15:20'>{__`Project Exhibition and Judging`}</Dot>
-              <Line/>
               <Dot time='16:30'>{__`Closing and Awarding Ceremony`}</Dot>
               <Line/>
               <Dot time='17:30'/>

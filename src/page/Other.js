@@ -42,6 +42,7 @@ import themakers from '../style/image/sponsor/themakers.png'
 import tuoniao from '../style/image/sponsor/tuoniao.png'
 import gs from '../style/image/sponsor/gs.png'
 import apple from '../style/image/sponsor/apple.png'
+import csdn from '../style/image/sponsor/csdn.png'
 
 export default class extends Component {
   render() {
@@ -71,8 +72,10 @@ export default class extends Component {
           </div>
           <h2 className='title'>{__`Event Organizer`}</h2>
           <div className='content space-bottom-a-lot'>
-            <div className='has-text-centered'>
-              <img className='ss-logo' src={host}/>
+            <div className='has-text-centered wrap'>
+              <a className='ss-link' href='//grapetech.org' target='_blank'>
+                <img className='ss-logo padding--2' src={host}/>
+              </a>
               <p className='ss-text'>{__`Grape Tech (Shenzhen) LLC`}</p>
             </div>
           </div>
@@ -206,6 +209,8 @@ export default class extends Component {
                 </a>
                 <p className='ss-text'>{__`真格基金`}</p>
               </div>
+            </div>
+            <div className='columns has-text-centered wrap'>
               <div className='column flex-1'>
                 <a className='ss-link' href='//dfj.com/' target='_blank'>
                   <img className='ss-logo padding--1' src={dfj}/>
@@ -247,6 +252,8 @@ export default class extends Component {
                 </a>
                 <p className='ss-text'>{__`创客时代`}</p>
               </div>
+            </div>
+            <div className='columns has-text-centered wrap'>
               <div className='column flex-1'>
                 <a className='ss-link' href='//www.themakers.cn/' target='_blank'>
                   <img className='ss-logo padding--1' src={themakers}/>
@@ -258,6 +265,12 @@ export default class extends Component {
                   <img className='ss-logo padding' src={tuoniao}/>
                 </a>
                 <p className='ss-text'>{__`鸵鸟电台`}</p>
+              </div>
+              <div className='column flex-1'>
+                <a className='ss-link' href='//tuoniao.fm/' target='_blank'>
+                  <img className='ss-logo padding-2' src={csdn}/>
+                </a>
+                <p className='ss-text'>{__`CSDN`}</p>
               </div>
             </div>
           </div>
